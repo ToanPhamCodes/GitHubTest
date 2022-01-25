@@ -5,4 +5,8 @@ public class Cat extends Animal{
         super(name, age);
         this.favouriteFood = favouriteFood;
     }
+
+    public void makeNoise () {
+        System.out.println("Meowww");
+    }
 }
